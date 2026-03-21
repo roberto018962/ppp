@@ -22,9 +22,3 @@ A solução utiliza o padrão **Command** para transformar cada solicitação em
 * **`ComandoCopiar.java` / `ComandoColar.java`**: Comandos concretos que vinculam o Invocador ao Receptor.
 * **`Botao.java`**: É o **Invocador** (Invoker). Carrega um comando e o dispara sem conhecer seus detalhes internos.
 * **`Main.java`**: Classe principal que configura o sistema, associa comandos aos botões e demonstra a flexibilidade do padrão.
-
-## 🚀 Como Executar
-
-1. Compile todos os arquivos `.java`:
-   ```bash
-   javac *.java
